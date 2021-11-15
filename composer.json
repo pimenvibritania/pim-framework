@@ -1,0 +1,21 @@
+{
+    "name": "pimenvibritania/php-framework",
+    "description": "php framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pimenvibritania",
+            "email": "pimenvibritania@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pimfw\\Component\\" : "vendor/pimenvibritania/pim-framework",
+            "Pimfw\\App\\" : "app"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "psr/http-message": "~1.0"
+    }
+}
